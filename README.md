@@ -3,7 +3,22 @@
 #### 项目介绍
 
 FastWebView 是封装了ProgressBar、WebView的组合控件，快速实现android中浏览网页，使用简单；方便二次扩展
+#### 引用说明
+~~~
+Step 1. 在项目的 build.gradle中引用
 
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. 在model中引用
+
+	dependencies {
+	        implementation 'com.gitee.wasdzy:WebViewLoadHtml:1.0.0'
+	}
+~~~
 #### 使用说明
 
 ~~~
